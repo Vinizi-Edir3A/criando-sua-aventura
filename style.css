@@ -1,0 +1,33 @@
+body {
+    background-color: #676767;
+    color: white;
+    font-family: "EB Garamond", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+}
+
+button {
+    background-color: #006061 ;
+    color: white;
+    font-family: "EB Garamond", system-ui;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    max-width: 90%;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+}
